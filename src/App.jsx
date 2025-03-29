@@ -130,9 +130,6 @@ const App = () => {
                     </li>
 
                 </ul>
-                <footer className="bg-slate-800 text-white text-center content-center p-2">
-                    <h3>@codeshark</h3>
-                </footer>
             </div>
         </div>
     )
