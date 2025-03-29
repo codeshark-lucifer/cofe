@@ -6,7 +6,7 @@ const App = () => {
     const [size, setSize] = useState(3)
 
     return (
-        <div>
+        <div className="min-h-screen bg-slate-50">
             <div className="px-6 pb-30">
                 <header>
                     <nav className="flex justify-between items-center py-4 text-slate-800">
