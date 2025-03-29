@@ -11,9 +11,9 @@ const App = () => {
                 <header>
                     <nav className="flex justify-between items-center py-4 text-slate-800">
                         <div className="flex items-center gap-6">
-                            <h1 className="text-3xl font-bold">Cofé</h1>
+                            <h1 className="text-2xl md:text-3xl font-bold">Cofé</h1>
                             <div className="flex flex-col justify-center">
-                                <h2 className="text-xl font-bold">The best cofe in the city</h2>
+                                <h2 className="text-md md:text-xl font-bold">The best cofe in the city</h2>
                                 <p className="text-sm text-slate-600">subtitle of this cofe</p>
                             </div>
                         </div>
@@ -26,7 +26,7 @@ const App = () => {
                 </header>
                 <main>
                     <section>
-                        <div className="h-60 bg-red-200 rounded-lg">
+                        <div className="h-50 md:h-60 bg-red-200 rounded-lg">
 
                         </div>
 
@@ -80,7 +80,7 @@ const App = () => {
                                 Array.from({ length: size }).map((_, i) => {
                                     return (
                                         <div className="bg-slate-200 rounded-lg h-80 p-2 flex flex-col justify-between">
-                                            <div className="bg-red-200 h-[60%] rounded-lg">
+                                            <div className="bg-red-200 md:h-50 h-[50%] rounded-lg">
 
                                             </div>
                                             <div className="h-[35%] rounded-lg flex flex-col justify-between pt-2 px-1 gap-2">
