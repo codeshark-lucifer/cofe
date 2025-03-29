@@ -108,23 +108,23 @@ const App = () => {
 " >
                 {/* Navigation */}
                 <ul className="grid grid-cols-5">
-                    <li className="text-slate-800 flex flex-col justify-center items-center p-2 text-[0.8rem]">
+                    <li className="text-slate-800 flex flex-col justify-center items-center p-2 text-[0.5rem] md:text-[0.8rem]">
                         <i className="fas fa-home text-lg p-2 rounded-lg  bg-slate-900 text-white hover:bg-slate-900 hover:text-white transition-all duration-300 cursor-pointer"></i>
                         <p>Home</p>
                     </li>
-                    <li className="text-slate-800 flex flex-col justify-center items-center p-2 text-[0.8rem]">
+                    <li className="text-slate-800 flex flex-col justify-center items-center p-2 text-[0.5rem] md:text-[1rem]">
                         <i className="fa-solid fa-list text-lg p-2 rounded-lg  hover:bg-slate-900 hover:text-white transition-all duration-300 cursor-pointer"></i>
                         <p>Category</p>
                     </li>
-                    <li className="text-slate-800 flex flex-col justify-center items-center p-2 text-[0.8rem]">
+                    <li className="text-slate-800 flex flex-col justify-center items-center p-2 text-[0.5rem] md:text-[1rem]">
                         <i className="fa-solid fa-cart-shopping text-lg p-2 rounded-lg  hover:bg-slate-900 hover:text-white transition-all duration-300 cursor-pointer"></i>
                         <p>Shopping Cart</p>
                     </li>
-                    <li className="text-slate-800 flex flex-col justify-center items-center p-2 text-[0.8rem]">
+                    <li className="text-slate-800 flex flex-col justify-center items-center p-2 text-[0.5rem] md:text-[1rem]">
                         <i className="fa-solid fa-comments text-lg p-2 rounded-lg  hover:bg-slate-900 hover:text-white transition-all duration-300 cursor-pointer"></i>
                         <p>Feeds</p>
                     </li>
-                    <li className="text-slate-800 flex flex-col justify-center items-center p-2 text-[0.8rem]">
+                    <li className="text-slate-800 flex flex-col justify-center items-center p-2 text-[0.5rem] md:text-[1rem]">
                         <i className="fa-solid fa-user text-lg p-2 rounded-lg  hover:bg-slate-900 hover:text-white transition-all duration-300 cursor-pointer"></i>
                         <p>Account</p>
                     </li>
